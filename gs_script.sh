@@ -3,7 +3,7 @@ cat /etc/redhat-release
 yum install -y epel-release
 yum install -y python-pip
 pip install --upgrade pip
-pip install apache-beam==2.13.0
+pip install apache-beam[gcp]
 tee -a /etc/yum.repos.d/google-cloud-sdk.repo << EOM
 [google-cloud-sdk]
 name=Google Cloud SDK
