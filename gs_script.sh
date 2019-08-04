@@ -1,2 +1,2 @@
 #!/bin/bash
-gsutil ls gs://
+python -v
