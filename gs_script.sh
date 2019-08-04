@@ -17,4 +17,4 @@ EOM
 yum clean all
 yum  repolist
 yum install -y google-cloud-sdk
-python  wordcount.py     --runner DataflowRunner     --project adminmediaanalytics     --staging_location gs://niraj_ad/staging     --temp_location gs://niraj_ad/temp     --template_location gs://niraj_ad/templates/wordcount
+python  wordcount.py     --runner DataflowRunner     --project adminmediaanalytics     --staging_location gs://wordcount_template/staging     --temp_location gs://wordcount_template/temp     --template_location gs://wordcount_template/templates/wordcount
