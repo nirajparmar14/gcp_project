@@ -1,7 +1,7 @@
 #!/bin/bash
 project_id=$PROJECT_ID
 echo $project_id
-echo $$BUILD_ID
+echo $BUILD_ID
 cat /etc/redhat-release
 yum install -y epel-release
 yum install -y python-pip
