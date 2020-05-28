@@ -1,0 +1,3 @@
+steps:
+- name: 'centos'
+  args: ['bash', './test.sh abc']
